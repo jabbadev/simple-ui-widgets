@@ -7,7 +7,7 @@
 	var wrlcURL = config.wrlcURL;
 	var jQuery;
 	
-	this[suw] = {};
+	this[suw] = this[suw] &&  this[suw] || {};
 	global[suw]["jqNotLoaded"] = true;
 	global[suw]["rlNotLoaded"] = true;
 	global[suw]["notInit"] = true;
